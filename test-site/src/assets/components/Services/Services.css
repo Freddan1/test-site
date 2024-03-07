@@ -1,0 +1,49 @@
+
+.serviceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer {
+    margin-top: 60px;
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.infoContainer {
+    margin-top: 40px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    width: 80vh;
+
+}
+
+.leadWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.leadContainer {
+    width: 80%;
+    height: 561px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.infoCardContainer {
+    width: 30%;
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
