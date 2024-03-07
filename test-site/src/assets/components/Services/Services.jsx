@@ -17,6 +17,17 @@ const Services = () => {
             <div className='infoCardContainer'>
                 LEAD CONNECT
             </div>
+            <div className='target__market__section'>
+                <h2>
+                    What is your target market?
+                </h2>
+                <p>
+                Specify the country or region where you're seeking leads.
+                </p>
+                <div className='target__market__input'>
+                    <input type="text" />
+                </div>
+            </div>
         </div>
     </div>
     </>
